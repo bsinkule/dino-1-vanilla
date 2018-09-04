@@ -20,11 +20,11 @@
         <h3>Add a Job</h3>
         <form class="job-form">
           <label for="title">Title</label>
-          <input type="text" name="title">
+          <input type="text" name="title" required>
           <label for="pay">Compensation</label>
-          <input type="text" name="pay">
+          <input type="text" name="pay" required>
           <label for="description">Description</label>
-          <textarea name="description" rows="8" cols="40"></textarea>
+          <textarea name="description" rows="8" cols="40" required></textarea>
           <input type="submit" name="submit" value="Submit" />
         </form>
       </aside>
@@ -32,6 +32,6 @@
     <footer>
       <small>Copyright 2018</small>
     </footer>
-    <script src="listings.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
   </body>
 </html>
